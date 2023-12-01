@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles/standard.css" />
+    <link
+      rel="shortcut icon"
+      href="./src/img/favicon.png"
+      type="image/x-icon"
+    />
+    <title>DONKI - Inicio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="mx-auto">
+    <nav
+      class="navbar navbar-expand-lg top-nav d-flex justify-content-between align-items-center px-2 py-2 w-100 align-self-center mt-2 rounded-2 sticky-top"
+    >
+      <div class="container-fluid">
+        <a href="/./" class="navbar-brand">
+          <img
+            class="logo"
+            src="./src/img/logo.png"
+            alt="DONKI Logo"
+            width="150px"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul
+            class="navbar-nav links d-flex justify-content-between align-items-center"
+          >
+            <li class="list-unstyled">
+              <a class="text-decoration-none" href="/./">INICIO</a>
+            </li>
+            <li class="list-unstyled">
+              <a class="text-decoration-none" href="/./productos">PRODUCTOS</a>
+            </li>
+            <li class="list-unstyled">
+              <a class="text-decoration-none" href="/./contacto">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!---HERO-->
+    <main class="d-flex flex-column gap-4">
+      <section class="position-relative mt-2">
+        <div
+          class="hero-text position-absolute top-50 start-50 translate-middle p-2"
+        >
+          <h1>
+            LA TIENDA <span class="highlight">N°1</span> DE &nbsp;
+            <span id="typewriter-component">some</span>
+          </h1>
+        </div>
+        <img
+          class="hero-img w-100 h-100 object-fit-cover"
+          src="./src/img/hero.jpg"
+          alt="Hero Image"
+        />
+      </section>
+      <section>
+        <h2>TIENDAS</h2>
+        <div id="stores" class="row">
+          <figure class="col-12 col-md-3">
+            <img
+              class="w-auto object-fit-cover mw-100"
+              src="./src/img/tienda_1.jpg"
+              alt="Tienda en ROPPONGI"
+            />
+            <figcaption class="m-0">DONKI ROPPONGI</figcaption>
+            <a
+              class="store-see-more d-flex justify-content-center align-items-center fw-bold py-3 align-self-center mt-1 text-decoration-none"
+              href="/tiendas.html"
+              >VER MAS</a
+            >
+          </figure>
+          <figure class="col-12 col-md-3">
+            <img
+              class="w-auto object-fit-cover mw-100"
+              src="./src/img/tienda_2.jpg"
+              alt="Tienda en KABUKICHO"
+            />
+            <figcaption class="m-0">DONKI KABUKICHO</figcaption>
+            <a
+              class="store-see-more d-flex justify-content-center align-items-center fw-bold py-3 align-self-center mt-1 text-decoration-none"
+              href="/tiendas.html"
+              >VER MAS</a
+            >
+          </figure>
+          <figure class="col-12 col-md-3">
+            <img
+              class="w-auto object-fit-cover mw-100"
+              src="./src/img/tienda_3.jpg"
+              alt="Tienda en AKIHABARA"
+            />
+            <figcaption class="m-0">DONKI AKIHABARA</figcaption>
+            <a
+              class="store-see-more d-flex justify-content-center align-items-center fw-bold py-3 align-self-center mt-1 text-decoration-none"
+              href="/tiendas.html"
+              >VER MAS</a
+            >
+          </figure>
+          <figure class="col-12 col-md-3">
+            <img
+              class="w-auto object-fit-cover mw-100"
+              src="./src/img/don_quijote.jpeg"
+              alt="Tienda en DOTONBORI"
+            />
+            <figcaption class="m-0">DONKI DOTONBORI</figcaption>
+            <a
+              class="store-see-more d-flex justify-content-center align-items-center fw-bold py-3 align-self-center mt-1 text-decoration-none"
+              href="/tiendas.html"
+              >VER MAS</a
+            >
+          </figure>
+        </div>
+      </section>
+      <section id="about-us" class="row">
+        <div class="col-12 col-md-7">
+          <h2>NOSOTROS</h2>
+          <p>
+            Don Quijote es una conocida cadena de tiendas en Japón que ofrece
+            una amplia gama de productos, desde artículos de uso diario hasta
+            productos de lujo. Fundada en 1980, la cadena se ha convertido en un
+            referente en el mercado minorista del país.
+          </p>
+
+          <p>
+            La primera tienda Don Quijote abrió sus puertas en Tokio y, desde
+            entonces, ha expandido su presencia a lo largo y ancho de Japón, con
+            sucursales en las principales ciudades y destinos turísticos.
+            Actualmente, cuenta con más de 300 tiendas en todo el país.
+          </p>
+
+          <p>
+            Don Quijote es conocida por su concepto de "tienda de descuento" y
+            su horario de funcionamiento las 24 horas del día, los 7 días de la
+            semana. Sus tiendas están llenas de una amplia variedad de
+            productos, incluyendo alimentos, electrónicos, ropa, artículos para
+            el hogar, juguetes, cosméticos, y mucho más.
+          </p>
+
+          <p>
+            La tienda se destaca por ofrecer precios competitivos y promociones
+            atractivas, lo que atrae a una amplia base de clientes, tanto
+            locales como turistas. Además, Don Quijote es famosa por su ambiente
+            vibrante y caótico, con pasillos llenos de productos apilados y
+            luces brillantes que crean una experiencia de compra única.
+          </p>
+
+          <p>
+            Además de su variedad de productos, Don Quijote también ha ganado
+            popularidad por su selección de productos temáticos y únicos que
+            representan la cultura japonesa y el estilo de vida otaku. Esto
+            incluye una amplia gama de artículos relacionados con manga, anime,
+            videojuegos y cosplay.
+          </p>
+
+          <p>
+            En resumen, Don Quijote es una tienda minorista icónica en Japón que
+            se ha convertido en un destino de compras popular tanto para los
+            residentes locales como para los turistas. Su amplia selección de
+            productos, precios competitivos y ambiente vibrante la convierten en
+            una experiencia de compra única en el país del sol naciente.
+          </p>
+        </div>
+        <div class="col-12 col-md-5">
+          <img
+            src="./src/img/don_quijote.jpeg"
+            alt="Tienda en DOTONBORI"
+            class="w-auto object-fit-cover mw-100"
+          />
+        </div>
+      </section>
+    </main>
+    <footer
+      class="d-flex flex-row justify-content-between align-items-center px-3 py-1 w-100 mt-3 rounded-3"
+    >
+      <div>
+        <img
+          class="h-auto object-fit-cover"
+          width="30px"
+          src="./src/img/social/instagram.svg"
+          alt="DONKI - instagram"
+        />
+        <img
+          class="h-auto object-fit-cover"
+          width="30px"
+          src="./src/img/social/tiktok.svg"
+          alt="DONKI - instagram"
+        />
+        <img
+          class="h-auto object-fit-cover"
+          width="30px"
+          src="./src/img/social/maps.svg"
+          alt="DONKI - instagram"
+        />
+      </div>
+
+      <div>
+        <p>Copyright © 2023 DONKI</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="./src/js/typewriter.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

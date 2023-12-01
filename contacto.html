@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles/standard.css" />
+    <link
+      rel="shortcut icon"
+      href="./src/img/favicon.png"
+      type="image/x-icon"
+    />
+    <title>DONKI - Inicio</title>
+  </head>
+  <body>
+    <nav class="top-nav">
+      <a href="/./">
+        <img class="logo" src="./src/img/logo.png" alt="DONKI Logo" />
+      </a>
+      <ul class="links">
+        <li><a href="/./">INICIO</a></li>
+        <li><a href="/./productos">PRODUCTOS</a></li>
+        <li><a href="/./contacto">CONTACTO</a></li>
+      </ul>
+    </nav>
+    <!---HERO-->
+    <main class="flex-row justify-space-between">
+      <div>
+        <h1>Ponte en contacto con nosotros</h1>
+        <p>
+          Si tienes alguna duda, sugerencia o reclamo, no dudes en contactarnos.
+        </p>
+        <section>
+          <h2>Envianos un mensaje</h2>
+          <form
+            action="mailto:donki@donki.com"
+            target="_blank"
+            id="contact-form"
+          >
+            <input type="text" placeholder="Nombre" />
+            <input type="email" placeholder="Correo" />
+            <textarea placeholder="Mensaje"></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </section>
+        <section>
+          <h2>Hazlo a traves de nuestras redes sociales</h2>
+          <ul class="flex-row" id="contact-social">
+            <li>
+              <a href="https://www.instagram.com/donki/" target="_blank">
+                <img
+                  src="./src/img/social/instagram.svg"
+                  alt="DONKI - instagram"
+                />
+                @Tiendas-Donki
+              </a>
+            </li>
+            <li>
+              <a href="https://www.tiktok.com/@donki" target="_blank">
+                <img
+                  src="./src/img/social/tiktok.svg"
+                  alt="DONKI - instagram"
+                />
+                @Tiendas-Donki
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div>
+        <img
+          src="./src/img/entrada_2.jpg"
+          id="contact-image"
+          alt="DONKI - contacto"
+        />
+      </div>
+    </main>
+
+    <footer>
+      <div>
+        <img src="./src/img/social/instagram.svg" alt="DONKI - instagram" />
+        <img src="./src/img/social/tiktok.svg" alt="DONKI - instagram" />
+        <img src="./src/img/social/maps.svg" alt="DONKI - instagram" />
+      </div>
+
+      <div>
+        <p>Copyright © 2023 DONKI</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="./src/js/typewriter.js"></script>
+  </body>
+</html>

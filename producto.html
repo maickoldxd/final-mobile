@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles/standard.css" />
+    <link
+      rel="shortcut icon"
+      href="./src/img/favicon.png"
+      type="image/x-icon"
+    />
+    <title>DONKI - Inicio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg top-nav d-flex justify-content-between align-items-center px-2 py-2 w-100 align-self-center mt-2 rounded-2 sticky-top"
+    >
+      <div class="container-fluid">
+        <a href="/./" class="navbar-brand">
+          <img
+            class="logo"
+            src="./src/img/logo.png"
+            alt="DONKI Logo"
+            width="150px"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul
+            class="navbar-nav links d-flex justify-content-between align-items-center"
+          >
+            <li class="list-unstyled">
+              <a class="text-decoration-none" href="/./">INICIO</a>
+            </li>
+            <li class="list-unstyled">
+              <a class="text-decoration-none" href="/./productos">PRODUCTOS</a>
+            </li>
+            <li class="list-unstyled">
+              <a class="text-decoration-none" href="/./contacto">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main id="product-info">
+      <div class="flex-row gap-2">
+        <ul id="thumbnails">
+          <li>
+            <img src="./src/img/productos/chibi_ghara.webp" alt="chibi ghara" />
+          </li>
+          <li>
+            <img
+              src="./src/img/productos/chibi_kakashi.webp"
+              alt="chibi kakashi"
+              class="opacity-075 grayscale-05"
+            />
+          </li>
+          <li>
+            <img
+              src="./src/img/productos/chibi_naruto.webp"
+              alt="chibi naruto"
+              class="opacity-075 grayscale-05"
+            />
+          </li>
+        </ul>
+        <div>
+          <img
+            id="main-image"
+            src="./src/img/productos/chibi_ghara.webp"
+            alt="Imagen principal"
+          />
+        </div>
+      </div>
+      <section id="product-details">
+        <div>
+          <h1>Muñeco Chibi Ghara de Naruto Shippuden</h1>
+          <h2>$3700.00</h2>
+          <span id="shipment">Envio a traves de OCA</span>
+          <ul id="product-features">
+            <li>
+              <span>10CM de altura</span>
+            </li>
+            <li>
+              <span>Hecho con PLA</span>
+            </li>
+            <li>
+              <span>Impreso en 3D</span>
+            </li>
+            <li>
+              <span> Pintado a mano con acrilicos </span>
+            </li>
+            <li>
+              <span>Ropa detallada</span>
+            </li>
+            <li>
+              <span>Expresión seria</span>
+            </li>
+            <li>
+              <span>Accesorios opcionales</span>
+            </li>
+            <li>
+              <span> Acabado de alta calidad </span>
+            </li>
+          </ul>
+        </div>
+        <div id="action-buttons">
+          <a href="#!" id="add-to-cart"> Agregar al carrito </a>
+          <a
+            href="https://api.whatsapp.com/send"
+            target="_blank"
+            id="buy-product"
+          >
+            Comprar Ahora
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <img src="./src/img/social/instagram.svg" alt="DONKI - instagram" />
+        <img src="./src/img/social/tiktok.svg" alt="DONKI - instagram" />
+        <img src="./src/img/social/maps.svg" alt="DONKI - instagram" />
+      </div>
+
+      <div>
+        <p>Copyright © 2023 DONKI</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="./src/js/typewriter.js"></script>
+  </body>
+</html>
